@@ -1,14 +1,14 @@
-#define BLYNK_TEMPLATE_ID   "//id template"
-#define BLYNK_TEMPLATE_NAME "//nama template"
-#define BLYNK_AUTH_TOKEN    "//auth token"
+#define BLYNK_TEMPLATE_ID "TMPL6xp2GFC0C"
+#define BLYNK_TEMPLATE_NAME "Ta"
+#define BLYNK_AUTH_TOKEN "w-4oDskfbf7MKLGTttOiXNF8Vx1bXzvf"
 
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 #include <DHT.h>
 
 char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "//nama wifi";
-char pass[] = "//password wifi";
+char ssid[] = "Wokwi-GUEST";
+char pass[] = "";
 
 #define DHTPIN D4           
 #define DHTTYPE DHT11       
